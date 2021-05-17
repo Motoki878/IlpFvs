@@ -82,12 +82,12 @@ The code includes several parameters. Since memory spaces are not dynamically al
 If you want to adjust parameters, please understand details of the code (since there are almost no comment lines, I do not recommend it.)
 However, the code cannot handle big graphs and thus adjustments of parameters may be meaningless.
 
-# Reference
-IlpFvs was developed for analysis of real neural networks discussed in the following manuscript.<br>
-M. Kajiwara et al.: Inhibitory neurons are a central controlling regulator in the effective cortical microconnectome,<br>
-bioRxiv, doi.org/10.1101/2020.02.18.954016.
-
+# References
+If you use this code, cite these following articles: 
+   
 IlpFvs uses the ILP formulation given in the following paper, where IlpFvs does not include any preprocessing or functions for computing critical and redundant vertices.<br>
 Y. Bao et al.: Analysis of critical and redundant vertices in controlling directed complex networks using feedback vertex sets.<br>
 Journal of Computational Biology, 25(10):1071-1090, 2018,
 
+IlpFvs was developed for analysis of real neural networks discussed in the following manuscript.<br>
+Kajiwara, M., Nomura, R., Goetze, F., Kawabata, M., Isomura, Y., Akutsu, T., & Shimono, M. (2021). Inhibitory neurons exhibit high controlling ability in the cortical microconnectome. PLOS Computational Biology, 17(4), e1008846.
